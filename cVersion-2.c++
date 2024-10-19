@@ -5,12 +5,13 @@ int main() {
     
     int k, n, month, year, yearV;  
     
-    cout<<"Введите год: ";
-    cin>>year;
-    cout<<"Введите день: ";
+    
+    cout<<"День: ";
     cin>>k;
-    cout<<"Введите день недели: ";
+    cout<<"Неделя: ";
     cin>>n;
+    cout<<"Год: ";
+    cin>>year;
     month = 0;
     yearV = 28;
     
@@ -44,7 +45,7 @@ int main() {
     
     string week = arrWeek[n];
     
-    cout<<k<<" "<<monthname<<", "<<week<<" "<<year<<" года";
+    cout<<"\n"<<k<<" "<<monthname<<", "<<week<<" "<<year<<" года";
 
 
     return 0;
