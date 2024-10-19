@@ -5,9 +5,9 @@ int main() {
     
     int k, n, month;  
     
-    cout<<"Введите день: ";
+    cout<<"День: ";
     cin>>k;
-    cout<<"Введите день недели: ";
+    cout<<"День недели: ";
     cin>>n;
     month = 0;
     
@@ -29,7 +29,7 @@ int main() {
     
     string week = arrWeek[n];
     
-    cout<<k<<" "<<monthname<<", "<<week;
+    cout<<"\n"<<k<<" "<<monthname<<", "<<week;
 
 
     return 0;
